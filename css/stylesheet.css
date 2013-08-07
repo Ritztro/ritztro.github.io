@@ -6,41 +6,36 @@ body{
     background-color: white;
     font-family: sans-serif;
     font-weight: bold;
+    margin: 0;
 }
 
-
-#wrap {
-    width: 960px;
-    margin: auto;
-    text-align: left;
-    background-color: lightgrey;
-    position: relative;
-    border: 1px solid black;
+#topbar-wrap {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FF8A00;
 }
 
 #topbar {
-    margin: 0;
-    padding-top: 5px;
-    width: 100%;
-    border-bottom: 1px solid white;
-    color: black;
-    background-color: black;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 960px;
+   background-color: #FF8A00;
 }
 
 #topbar ul {
         padding-left: 0;
 }
 
-#topbar li {
+#topbar li{
     display: inline;
     list-style: none;
     padding-right: 5%;
     padding-left: 5%;
-    border-left: 1px solid grey;
 }
 
-#topbar li:nth-child(1) {
-    border-left: none;
+#topbar li h1, #topbar li h4 {
+    display: inline;
+    text-transform: uppercase;
 }
 
 #topbar a {
@@ -49,17 +44,50 @@ body{
 }
 
 #topbar a:hover {
-    color: darkgrey;
+
 }
 
-blockquote {
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 0.5;
+}
+
+#content-wrap {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+#main-content h1 {
+    margin-top: 0;
+}
+#main-content {
+    width: 960px;
+    height: auto;
+    padding: 30px 0;
     margin: auto;
-    border: 2px solid white;
-    height: 50px;
-    width: 98%;
-    margin-bottom: 5px;
+    text-align: left;
+    background-color: #f4f4f4;
+    position: relative;
+    overflow: hidden;
 }
 
-blockquote p {
-    text-align: center;
+#my-pic {
+    float: left;
+    width: 33%;
+    height: auto;
+    margin: 0 8% 0 0;
+}
+
+#text-content {
+    max-width: 66%;
+    padding-top: 40px;
+    display: inline-block;
+    clear: both;
+    float: right;
 }
