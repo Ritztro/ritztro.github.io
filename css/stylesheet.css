@@ -16,7 +16,7 @@ body{
 }
 
 #topbar {
-    padding: 30px 0;
+    padding: 50px 0;
     margin: 0 auto;
     width: 960px;
    background-color: #FF8A00;
@@ -65,6 +65,7 @@ body{
 
 #main-content h1 {
     margin-top: 0;
+    padding-bottom: 15px;
 }
 #main-content {
     width: 960px;
@@ -79,15 +80,15 @@ body{
 
 #my-pic {
     float: left;
-    width: 33%;
+    width: 28%;
     height: auto;
-    margin: 0 8% 0 0;
+    margin: 0 8% 0 4%;
 }
 
 #text-content {
-    max-width: 66%;
+    max-width: 50%;
     padding-top: 40px;
+    line-height: 36px;
     display: inline-block;
-    clear: both;
-    float: right;
+    float: left;
 }
